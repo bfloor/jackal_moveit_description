@@ -1,11 +1,10 @@
 moveit_setup_assistant_config:
   URDF:
     package: jackal_description
-    relative_path: urdf/jackal.urdf.xacro
-    xacro_args: "--inorder "
+    relative_path: urdf/jackal2.urdf.xacro
   SRDF:
     relative_path: config/jackal.srdf
   CONFIG:
     author_name: Bruno Brito
     author_email: bruno.debrito@tudelft.nl
-    generated_timestamp: 1526638448
+    generated_timestamp: 1535457019
